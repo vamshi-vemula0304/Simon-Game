@@ -3,7 +3,7 @@ var gamePattern=[];
 var userClickedPattern=[];
 var level=0;
 function nextSequence(){
-    level=level+1
+    level=level+1;
     $("#level-title").html("Level "+level)
     return Math.floor(Math.random()*4)
 }
